@@ -4,21 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kuruluş Osman - Watch Episodes</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Kuruluş Osman - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <!-- Header -->
     <header class="header">
         <div class="container">
             <h1>Kuruluş Osman</h1>
             <nav>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#episodes">Episodes</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Seasons</a>
+                        <ul class="dropdown-content">
+                            <li><a href="season1.html">Season 1</a></li>
+                            <li><a href="season2.html">Season 2</a></li>
+                            <li><a href="season3.html">Season 3</a></li>
+                            <li><a href="season4.html">Season 4</a></li>
+                            <li><a href="season5.html">Season 5</a></li>
+                            <li><a href="season6.html">Season 6</a></li>
+                        </ul>
+                    </li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -26,171 +33,24 @@
         </div>
     </header>
 
-    <!-- Home Section -->
-    <section id="home" class="home">
+    <section class="home">
         <div class="banner">
             <div class="banner-content">
                 <h2>Witness the Epic Journey of Osman Bey</h2>
                 <p>Relive the story of courage, legacy, and the rise of an empire.</p>
-                <a href="#episodes" class="btn">Watch Now</a>
+                <a href="season1.html" class="btn">Start Watching</a>
             </div>
         </div>
     </section>
 
-    <!-- Episodes Section -->
-    <section id="episodes" class="episodes">
-        <div class="container">
-            <h2>Episodes</h2>
-            <div class="episode-grid">
-                <div class="episode">
-                    <img src="episode1.jpg" alt="Episode 1">
-                    <h3>Episode 1: The Beginning of the Journey</h3>
-                    <p>Osman Bey begins his journey to establish the Ottoman Empire.</p>
-                    <a href="#episode1" class="btn">Watch Episode</a>
-                </div>
-                <div class="episode">
-                    <img src="episode2.jpg" alt="Episode 2">
-                    <h3>Episode 2: The Battle Begins</h3>
-                    <p>The battle intensifies as Osman faces new enemies.</p>
-                    <a href="#episode2" class="btn">Watch Episode</a>
-                </div>
-                <div class="episode">
-                    <img src="episode3.jpg" alt="Episode 3">
-                    <h3>Episode 3: New Alliances</h3>
-                    <p>A new ally joins Osman’s mission, but trust is tested.</p>
-                    <a href="#episode3" class="btn">Watch Episode</a>
-                </div>
-                <div class="episode">
-                    <img src="episode4.jpg" alt="Episode 4">
-                    <h3>Episode 4: The Siege</h3>
-                    <p>Osman lays siege to the enemy's stronghold as new challenges arise.</p>
-                    <a href="#episode4" class="btn">Watch Episode</a>
-                </div>
-                <div class="episode">
-                    <img src="episode5.jpg" alt="Episode 5">
-                    <h3>Episode 5: Betrayal</h3>
-                    <p>A trusted ally betrays Osman, leading to unforeseen consequences.</p>
-                    <a href="#episode5" class="btn">Watch Episode</a>
-                </div>
-                <div class="episode">
-                    <img src="episode6.jpg" alt="Episode 6">
-                    <h3>Episode 6: The Rival</h3>
-                    <p>Osman faces a formidable rival who threatens the future of his empire.</p>
-                    <a href="#episode6" class="btn">Watch Episode</a>
-                </div>
-                <div class="episode">
-                    <img src="episode7.jpg" alt="Episode 7">
-                    <h3>Episode 7: The Struggle</h3>
-                    <p>Osman’s people face tremendous hardships as they fight to survive.</p>
-                    <a href="#episode7" class="btn">Watch Episode</a>
-                </div>
-                <div class="episode">
-                    <img src="episode8.jpg" alt="Episode 8">
-                    <h3>Episode 8: The Victory</h3>
-                    <p>Victory is within Osman’s grasp, but at a great personal cost.</p>
-                    <a href="#episode8" class="btn">Watch Episode</a>
-                </div>
-                <div class="episode">
-                    <img src="episode9.jpg" alt="Episode 9">
-                    <h3>Episode 9: The Legacy Continues</h3>
-                    <p>Osman’s journey is far from over as he faces the legacy of his actions.</p>
-                    <a href="#episode9" class="btn">Watch Episode</a>
-                </div>
-                <!-- Add more episodes here -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Single Episode Pages -->
-    <section id="episode1" class="single-episode">
-        <div class="container">
-            <h2>Episode 1: The Beginning of the Journey</h2>
-            <video controls>
-                <source src="episode1.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p>In this episode, Osman Bey begins his journey to establish the Ottoman Empire. Witness the epic battles and rich storytelling!</p>
-            <a href="#episodes" class="btn">Back to Episodes</a>
-        </div>
-    </section>
-
-    <section id="episode2" class="single-episode">
-        <div class="container">
-            <h2>Episode 2: The Battle Begins</h2>
-            <video controls>
-                <source src="episode2.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p>The battle intensifies as Osman faces new enemies. Experience the twists and turns in this action-packed episode!</p>
-            <a href="#episodes" class="btn">Back to Episodes</a>
-        </div>
-    </section>
-
-    <section id="episode3" class="single-episode">
-        <div class="container">
-            <h2>Episode 3: New Alliances</h2>
-            <video controls>
-                <source src="episode3.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p>Osman Bey makes new alliances that change the direction of his empire’s future.</p>
-            <a href="#episodes" class="btn">Back to Episodes</a>
-        </div>
-    </section>
-
-    <section id="episode4" class="single-episode">
-        <div class="container">
-            <h2>Episode 4: The Siege</h2>
-            <video controls>
-                <source src="episode4.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <p>Osman’s forces lay siege to the enemy stronghold, but danger lurks on all sides.</p>
-            <a href="#episodes" class="btn">Back to Episodes</a>
-        </div>
-    </section>
-
-    <!-- More episodes can be added similarly -->
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About the Series</h2>
-            <p>Kuruluş Osman chronicles the epic journey of Osman Bey, the founder of the Ottoman Empire. With rich storytelling, breathtaking battles, and intense drama, it is a historical series that captures the essence of leadership, struggle, and empire building. Follow Osman as he faces both external enemies and internal struggles to establish the Ottoman Empire.</p>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <form action="submit_form.php" method="POST">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit" class="btn">Send</button>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Kuruluş Osman Fan Site. All rights reserved.</p>
+            <p>&copy; 2025 Kuruluş Osman Fan Site. All rights reserved.</p>
         </div>
     </footer>
-
-    <script src="script.js"></script>
 </body>
+
+</html>
 
 </html>
 
